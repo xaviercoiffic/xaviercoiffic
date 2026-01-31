@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "mauritius-lead-scraper"
+version = "1.0.0"
+description = "A lead generation tool specialized for Mauritius businesses"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Xavier Coiffic", email = "hi@xavier.mu"},
+]
+dependencies = [
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+    "openpyxl>=3.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+]
+
+[project.scripts]
+mauritius-leads = "mauritius_lead_scraper.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mauritius_lead_scraper*"]
