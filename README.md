@@ -1,6 +1,4 @@
-- 👋 Hi, I’m @xaviercoiffic
-- 👀 I’m interested in Design & Code
-- 🌱 I’m currently learning Ruby
+- 👋 Hi, I’m xavier
 - 💞️ I’m looking to collaborate on projects
 - 📫 How to reach me hi@xavier.mu
 
